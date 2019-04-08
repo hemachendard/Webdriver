@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testsuite]">
+  <test thread-count="5" name="CHROME(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.browser.NewTest002">
+        <methods>
+          <include name="login"/>
+          <include name="endprocess"/>
+          <include name="testprocess"/>
+        </methods>
+      </class> <!-- com.browser.NewTest002 -->
+    </classes>
+  </test> <!-- CHROME(failed) -->
+  <test thread-count="5" name="FIREFOX(failed)">
+    <parameter name="browser" value="FIREFOX"/>
+    <classes>
+      <class name="com.browser.NewTest002">
+        <methods>
+          <include name="login"/>
+          <include name="endprocess"/>
+          <include name="testprocess"/>
+        </methods>
+      </class> <!-- com.browser.NewTest002 -->
+    </classes>
+  </test> <!-- FIREFOX(failed) -->
+  <test thread-count="5" name="IE(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.browser.NewTest002">
+        <methods>
+          <include name="login"/>
+          <include name="endprocess"/>
+          <include name="testprocess"/>
+        </methods>
+      </class> <!-- com.browser.NewTest002 -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [testsuite] -->

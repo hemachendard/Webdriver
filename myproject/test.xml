@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="first suite">
+  <test thread-count="5" verbose="2" name="second test">
+    <classes>
+      <class name="com.browser.NewTest002"/>
+      <class name="com.browser.TestCase2001"/>
+      <class name="com.browser.TestNG"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
